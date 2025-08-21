@@ -1,0 +1,5228 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f101f942-f5bb-4cb1-b029-662e51c794cd")
+	(paper "A3")
+	(title_block
+		(title "Direc Speaker")
+		(date "2025-08-21")
+	)
+	(lib_symbols
+		(symbol "Artix_Library:Ultrasound_sensor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Artix_Library:Ultrasound_16mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ultrasound_sensor_0_1"
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Ultrasound_sensor_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 116.84 254) (xy 116.84 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d07613-2ceb-46fb-9631-40726cacb3b1")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100c89a7-21d5-42f8-a9e8-19a8c9278689")
+	)
+	(wire
+		(pts
+			(xy 146.05 152.4) (xy 151.13 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10618818-f913-4bd2-bf31-b563de6a8d30")
+	)
+	(wire
+		(pts
+			(xy 109.22 254) (xy 109.22 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fc2163-9e7c-4ca3-aca6-648e1dd5d7f1")
+	)
+	(wire
+		(pts
+			(xy 331.47 101.6) (xy 336.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a9f3c1-33c9-43ba-8be3-e28a9f564517")
+	)
+	(wire
+		(pts
+			(xy 196.85 76.2) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f271db-98b1-45e2-b199-ea1ae02a948d")
+	)
+	(wire
+		(pts
+			(xy 179.07 203.2) (xy 184.15 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1845cc41-bcf8-469e-a98b-9e36ed19ab12")
+	)
+	(wire
+		(pts
+			(xy 85.09 254) (xy 85.09 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aed6e8b-d64e-4e4b-8461-4ec80b7d6233")
+	)
+	(wire
+		(pts
+			(xy 247.65 101.6) (xy 252.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb2d72b-d85c-40ae-b312-8e1a7e154fa8")
+	)
+	(wire
+		(pts
+			(xy 298.45 177.8) (xy 303.53 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df6c9ac-ecaa-4984-90f6-dc5d3fc66463")
+	)
+	(wire
+		(pts
+			(xy 95.25 127) (xy 100.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee4e449-bce3-48c7-87c8-36677e281a08")
+	)
+	(wire
+		(pts
+			(xy 95.25 203.2) (xy 100.33 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22555e35-a61b-4357-aab3-f427fe009793")
+	)
+	(wire
+		(pts
+			(xy 196.85 127) (xy 201.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226b1614-cd10-49a5-a768-ed54ca959e13")
+	)
+	(wire
+		(pts
+			(xy 217.17 251.46) (xy 224.79 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239cc5d2-f640-47c3-8086-c124b5265f9f")
+	)
+	(wire
+		(pts
+			(xy 77.47 101.6) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c1c337-1c4e-4ac9-a765-6d31bd114a93")
+	)
+	(wire
+		(pts
+			(xy 247.65 152.4) (xy 252.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288bd918-d2aa-445c-aedb-a0fcae303852")
+	)
+	(wire
+		(pts
+			(xy 229.87 203.2) (xy 234.95 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2894f7ba-932e-4112-abeb-90cdd1dc5be2")
+	)
+	(wire
+		(pts
+			(xy 349.25 203.2) (xy 354.33 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1ef385-ff45-4df3-88b3-53fee9f875d2")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2e826d-5114-4d01-85e9-53d77ec0b6ba")
+	)
+	(wire
+		(pts
+			(xy 95.25 152.4) (xy 100.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2cbe00-2566-47d5-84c8-82e75159b4ca")
+	)
+	(wire
+		(pts
+			(xy 92.71 254) (xy 92.71 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e42ab82-60db-48d4-bd79-c562b838455b")
+	)
+	(wire
+		(pts
+			(xy 179.07 152.4) (xy 184.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3016dc78-a3b0-45db-bd0c-742dac19dc27")
+	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f57e599-1998-477b-afae-7847c48caddf")
+	)
+	(wire
+		(pts
+			(xy 331.47 152.4) (xy 336.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b15d4f2-0302-4fab-bf3a-ecf401b013d9")
+	)
+	(wire
+		(pts
+			(xy 217.17 262.89) (xy 224.79 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f148cc7-fe75-41cd-9590-a3aaed7b413e")
+	)
+	(wire
+		(pts
+			(xy 179.07 101.6) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9b3262-1ed2-4c0e-98c4-e31378b56e31")
+	)
+	(wire
+		(pts
+			(xy 349.25 76.2) (xy 354.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5243b96e-3d9d-4e2d-976f-6c5fbb7ad85e")
+	)
+	(wire
+		(pts
+			(xy 196.85 177.8) (xy 201.93 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fb14d2-54fc-4fdf-a93a-8322a0283eff")
+	)
+	(wire
+		(pts
+			(xy 77.47 203.2) (xy 82.55 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eee10cc-7069-43b5-ba89-5033fc1a17af")
+	)
+	(wire
+		(pts
+			(xy 128.27 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faa1f94-46d0-42a4-9b35-d6ba1be5dff2")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6016b2e5-afc0-4ce1-b559-048ff715f438")
+	)
+	(wire
+		(pts
+			(xy 280.67 101.6) (xy 285.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6421e26c-9e05-4557-9b25-d729c3a45114")
+	)
+	(wire
+		(pts
+			(xy 247.65 127) (xy 252.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6841d3a0-f351-4a2d-96cc-dd71c882c36a")
+	)
+	(wire
+		(pts
+			(xy 349.25 152.4) (xy 354.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a78de08-575b-4247-96ed-c8f46c269656")
+	)
+	(wire
+		(pts
+			(xy 349.25 101.6) (xy 354.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fd68cf-8fe7-4f8c-a82f-6387f763cba7")
+	)
+	(wire
+		(pts
+			(xy 331.47 177.8) (xy 336.55 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d66514-cf41-4c1d-9ff7-90a1e967ccef")
+	)
+	(wire
+		(pts
+			(xy 247.65 203.2) (xy 252.73 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bd1dac-f9d4-435a-9a2b-d75941f32d1c")
+	)
+	(wire
+		(pts
+			(xy 298.45 101.6) (xy 303.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c499fa1-f36b-44d2-a772-aa57104e0edc")
+	)
+	(wire
+		(pts
+			(xy 280.67 127) (xy 285.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0f2f30-e0bf-4925-9f41-726e4f9ba23c")
+	)
+	(wire
+		(pts
+			(xy 280.67 177.8) (xy 285.75 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80359770-4751-434a-b91d-c113d9993448")
+	)
+	(wire
+		(pts
+			(xy 331.47 203.2) (xy 336.55 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bc4a6a-8235-4ed4-8a86-78932dea047b")
+	)
+	(wire
+		(pts
+			(xy 298.45 152.4) (xy 303.53 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d6ab90-ab9d-426f-b1a0-01578037476e")
+	)
+	(wire
+		(pts
+			(xy 180.34 262.89) (xy 187.96 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882ac73f-beff-4937-9334-84c482724bd2")
+	)
+	(wire
+		(pts
+			(xy 298.45 203.2) (xy 303.53 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba66cba-914b-45aa-aabf-f69a10ea5c3b")
+	)
+	(wire
+		(pts
+			(xy 229.87 101.6) (xy 234.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc8a8d1-8d27-40c3-a9a1-49745b08a248")
+	)
+	(wire
+		(pts
+			(xy 331.47 127) (xy 336.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907ead74-cc1a-4cb0-a78a-0cd1df7e555f")
+	)
+	(wire
+		(pts
+			(xy 196.85 152.4) (xy 201.93 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92841097-3342-449f-8934-63eb7f5553f6")
+	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96054c36-c005-4c5e-b373-e461a465ba87")
+	)
+	(wire
+		(pts
+			(xy 95.25 177.8) (xy 100.33 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1fb0fc-4a5b-4585-bbe0-fb1c7b567600")
+	)
+	(wire
+		(pts
+			(xy 280.67 152.4) (xy 285.75 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b60c19-00f7-4309-b68c-4e0cc174492b")
+	)
+	(wire
+		(pts
+			(xy 331.47 76.2) (xy 336.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c04266-1784-4569-8682-06f412520262")
+	)
+	(wire
+		(pts
+			(xy 217.17 228.6) (xy 224.79 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e30b26-b745-45bf-a8b9-90a73566f356")
+	)
+	(wire
+		(pts
+			(xy 280.67 203.2) (xy 285.75 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cfe3c5-2e7a-427d-864d-2454d396de0f")
+	)
+	(wire
+		(pts
+			(xy 217.17 240.03) (xy 224.79 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54d4975-0519-40e5-8380-fc93426c10ea")
+	)
+	(wire
+		(pts
+			(xy 229.87 177.8) (xy 234.95 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5764cdb-f4b5-44ba-9958-b6913dc0ee42")
+	)
+	(wire
+		(pts
+			(xy 128.27 177.8) (xy 133.35 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6eb9d10-a559-4f08-82b7-f1c4e794b3e8")
+	)
+	(wire
+		(pts
+			(xy 349.25 177.8) (xy 354.33 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70f65c9-b933-4a9a-ade3-09f91db5eee0")
+	)
+	(wire
+		(pts
+			(xy 179.07 76.2) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7498c3d-d117-4007-a901-c6a8bfaf6e68")
+	)
+	(wire
+		(pts
+			(xy 349.25 127) (xy 354.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80d6cd7-9689-4c0b-86ba-0845d75d5e4d")
+	)
+	(wire
+		(pts
+			(xy 146.05 127) (xy 151.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1944a9b-ac04-4acf-9f15-70165032820b")
+	)
+	(wire
+		(pts
+			(xy 280.67 76.2) (xy 285.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3059680-dd2a-4953-bf09-dd686af5f680")
+	)
+	(wire
+		(pts
+			(xy 128.27 152.4) (xy 133.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4535683-08a5-4189-a0d7-5950a3e3a077")
+	)
+	(wire
+		(pts
+			(xy 77.47 127) (xy 82.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdff4fc6-bc5c-4826-82e5-7b65a21dc52d")
+	)
+	(wire
+		(pts
+			(xy 77.47 177.8) (xy 82.55 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be213557-a8f7-439c-a3f5-ecf5775d108f")
+	)
+	(wire
+		(pts
+			(xy 146.05 177.8) (xy 151.13 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1359b9e-3829-4ee1-a151-2c38e43eb93e")
+	)
+	(wire
+		(pts
+			(xy 247.65 177.8) (xy 252.73 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28fcc9b-a4c1-4ca8-bd7b-9e6c21985981")
+	)
+	(wire
+		(pts
+			(xy 196.85 101.6) (xy 201.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ea555c-3b00-4d65-9873-d62c809f9554")
+	)
+	(wire
+		(pts
+			(xy 229.87 76.2) (xy 234.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6eeb1a-091a-47f4-a682-8764b4a72d1c")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26f3745-f586-4818-bedf-faf0e543bf9b")
+	)
+	(wire
+		(pts
+			(xy 179.07 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53f8b62-74d6-49cc-8dd6-5d6b2df5b23e")
+	)
+	(wire
+		(pts
+			(xy 247.65 76.2) (xy 252.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce2b49d-56e7-4290-af58-0320559e2f09")
+	)
+	(wire
+		(pts
+			(xy 180.34 240.03) (xy 187.96 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3408bb-713e-413c-af61-fe59124b7414")
+	)
+	(wire
+		(pts
+			(xy 146.05 203.2) (xy 151.13 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea19eb5-fa0c-41fc-a5e4-81de031411d8")
+	)
+	(wire
+		(pts
+			(xy 179.07 177.8) (xy 184.15 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df87ddbc-7146-495c-9c8c-7290d2b0d780")
+	)
+	(wire
+		(pts
+			(xy 180.34 251.46) (xy 187.96 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19aa0b6-98a1-4a13-8a44-bd7f318664cb")
+	)
+	(wire
+		(pts
+			(xy 229.87 152.4) (xy 234.95 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f991e0-fdfa-4f9b-ac4f-1cf39e6e2a6e")
+	)
+	(wire
+		(pts
+			(xy 298.45 127) (xy 303.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5c53e2-ea6a-4f91-9973-f5565dd84d60")
+	)
+	(wire
+		(pts
+			(xy 196.85 203.2) (xy 201.93 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04fce4e-7eb5-430c-97e9-e979980dc949")
+	)
+	(wire
+		(pts
+			(xy 180.34 228.6) (xy 187.96 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32e60e0-182c-47e1-8384-976953c02fc0")
+	)
+	(wire
+		(pts
+			(xy 128.27 203.2) (xy 133.35 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f596ff7a-64e4-4319-8f02-5a9da3a0ef85")
+	)
+	(wire
+		(pts
+			(xy 298.45 76.2) (xy 303.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d47a8c-b262-490b-8f3f-3f4a3c5a103f")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 100.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82581f5-c808-465e-b353-753ef461c049")
+	)
+	(wire
+		(pts
+			(xy 229.87 127) (xy 234.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb07a6f7-b1be-444e-b6bc-f06eba2bba34")
+	)
+	(wire
+		(pts
+			(xy 77.47 152.4) (xy 82.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef50e14-b137-4f83-97ea-6fb6645a0b4a")
+	)
+	(label "+"
+		(at 280.67 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0193c9ff-0475-45d1-8e3b-eea5c64e621b")
+	)
+	(label "+"
+		(at 128.27 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05523771-405c-470e-ae6c-102d77e9b5aa")
+	)
+	(label "-"
+		(at 303.53 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07c4d598-e13f-4d5e-8f91-00b4e9f8aabf")
+	)
+	(label "+"
+		(at 331.47 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09f45e01-ebf3-4ab9-bee2-b0ed3a8cbdea")
+	)
+	(label "GND"
+		(at 224.79 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a9378f1-ae9d-4207-a51c-24a16e9f3e25")
+	)
+	(label "+"
+		(at 280.67 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e845d7f-95b6-44e6-8413-932e75357c1a")
+	)
+	(label "-"
+		(at 354.33 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "147729bb-c62b-4ad9-a023-a63d1df58bae")
+	)
+	(label "+"
+		(at 128.27 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14bc17c0-28d1-4b40-a4a7-2935e5b3be6b")
+	)
+	(label "+"
+		(at 229.87 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cd6604a-7d8e-494b-9867-3c2203eefa76")
+	)
+	(label "-"
+		(at 201.93 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e4c1b0c-02a5-4900-b696-959d4f7b2116")
+	)
+	(label "+"
+		(at 280.67 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20b93c94-d356-4161-a5cf-684fb1858209")
+	)
+	(label "-"
+		(at 252.73 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "217af570-1548-42d5-b253-cdbce6f2fda8")
+	)
+	(label "-"
+		(at 201.93 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2266e0d2-1a46-4918-ba2e-41c383be751b")
+	)
+	(label "+"
+		(at 229.87 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "231d2b3c-0d1a-4302-8b9e-b1f4f0a45c78")
+	)
+	(label "+"
+		(at 331.47 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25306103-22bd-41ae-8bb3-6b338d3096c1")
+	)
+	(label "+"
+		(at 229.87 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ba5a8ee-0b74-4fad-9d08-53932be95fff")
+	)
+	(label "-"
+		(at 100.33 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d3b72f3-f886-4e3e-8624-30105430a1ac")
+	)
+	(label "+"
+		(at 229.87 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c0eabe7-dca5-4dab-8b94-31046e96d971")
+	)
+	(label "+"
+		(at 179.07 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ccb9eb4-bea1-4bd1-9a03-e0cc9090383a")
+	)
+	(label "-"
+		(at 151.13 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f7e0ab8-3bcc-4983-bd34-3b92c9437965")
+	)
+	(label "-"
+		(at 354.33 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44405b1b-0c86-4839-89e1-8117294f0c2f")
+	)
+	(label "+"
+		(at 280.67 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a546208-6b3a-4fc7-b483-299639426cb4")
+	)
+	(label "+"
+		(at 77.47 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5045b580-9174-4260-a263-9db333b6041b")
+	)
+	(label "-"
+		(at 116.84 256.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58cbc081-9532-43ec-ab20-0e0985b914fd")
+	)
+	(label "-"
+		(at 252.73 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5af111ea-65f9-40f3-9a01-291b7de3a2b9")
+	)
+	(label "+"
+		(at 331.47 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ccd0d0b-1984-44dc-aa4f-ba01123b71df")
+	)
+	(label "-"
+		(at 354.33 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d362c8b-b28b-469e-9bb0-369fab6c5abf")
+	)
+	(label "-"
+		(at 303.53 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6137f88c-4d0e-4987-a545-1f0345881ee3")
+	)
+	(label "+"
+		(at 109.22 256.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65dce577-7b60-4b00-8b89-ccdde71ae6f6")
+	)
+	(label "-"
+		(at 201.93 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69b330ea-f1f4-4401-bd52-fe509e8c7f7d")
+	)
+	(label "-"
+		(at 303.53 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c7811c1-df63-4850-8233-b3cbfb10a61d")
+	)
+	(label "GND"
+		(at 187.96 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7822b67f-8721-4947-8435-97fcdf67bd89")
+	)
+	(label "+"
+		(at 128.27 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78835cb5-dd6c-48e9-a5c9-1ae3079dea1e")
+	)
+	(label "+"
+		(at 77.47 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b52d333-da9c-44c5-80d6-25ec5e0a945d")
+	)
+	(label "+"
+		(at 77.47 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d51fe06-20c5-4340-9bd4-49b7ef88b1ce")
+	)
+	(label "+"
+		(at 179.07 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82872ccd-a6e8-4e36-ba4a-983bf03f7a5c")
+	)
+	(label "+"
+		(at 280.67 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88563d19-b609-457d-8c5b-dff7cf648541")
+	)
+	(label "-"
+		(at 354.33 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88d03a70-9c8a-4797-9b5f-1c8ba129abc6")
+	)
+	(label "GND"
+		(at 224.79 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c239496-392d-4481-8003-4c4ed7aa2ecb")
+	)
+	(label "+"
+		(at 179.07 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ca9850e-9d4a-4a21-9f7e-548ba79ffcea")
+	)
+	(label "+"
+		(at 77.47 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9063f201-9ac4-4b4b-a547-ee43a71bd0a9")
+	)
+	(label "-"
+		(at 252.73 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95017bb7-1305-4d18-b7a4-18477dfaf5e6")
+	)
+	(label "+"
+		(at 77.47 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "997932c8-4a0c-4303-9f20-60ac6f13b533")
+	)
+	(label "GND"
+		(at 224.79 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99ea9def-d682-43f3-bf07-62b289c250ba")
+	)
+	(label "GND"
+		(at 187.96 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bffba5b-7f68-42eb-b78f-7b8177c5798b")
+	)
+	(label "-"
+		(at 354.33 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e88bcbf-b4d6-460f-be63-839068e51d6b")
+	)
+	(label "+"
+		(at 128.27 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f7b4084-a62d-4278-90ad-4138c3db8f02")
+	)
+	(label "-"
+		(at 100.33 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a233acfa-4e4c-4ccc-b4f0-fe8c53cb4465")
+	)
+	(label "+"
+		(at 179.07 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a56c5677-3837-40f4-be2f-44160588749b")
+	)
+	(label "-"
+		(at 151.13 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a88c62a7-e681-4c44-b690-e32aca894dcf")
+	)
+	(label "+"
+		(at 179.07 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9982e4c-1708-4410-99c0-2d1501e32129")
+	)
+	(label "-"
+		(at 151.13 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa1c6cc9-b988-4651-aa90-84543c117246")
+	)
+	(label "-"
+		(at 151.13 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae3abde9-689e-4108-b452-916f1858bef9")
+	)
+	(label "-"
+		(at 303.53 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b42ae7db-f4c7-4e32-88fd-b90a67444cef")
+	)
+	(label "+"
+		(at 331.47 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7119ca9-1791-484a-bc25-d384a2d3c9f5")
+	)
+	(label "-"
+		(at 201.93 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba3de475-1661-4404-8999-e2c10609a459")
+	)
+	(label "-"
+		(at 100.33 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbbe6faa-93e6-43ca-8bbd-5e6cc357601b")
+	)
+	(label "-"
+		(at 303.53 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be556ae9-e48e-4dc2-9225-a8caa0e8d686")
+	)
+	(label "-"
+		(at 252.73 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c046f799-9c9f-40d5-a1c4-43260f5f0bbc")
+	)
+	(label "+"
+		(at 77.47 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c43caa19-0bf4-4988-9456-77634be94227")
+	)
+	(label "GND"
+		(at 224.79 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c64aab01-32b9-4b91-be38-379520060817")
+	)
+	(label "-"
+		(at 100.33 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c78e8522-5509-4698-b278-e8ee49eb960d")
+	)
+	(label "+"
+		(at 229.87 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7db426f-64aa-451b-bfb5-525766824ada")
+	)
+	(label "+"
+		(at 229.87 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8cca46c-903c-4e9e-8be5-00d7b9a4e448")
+	)
+	(label "-"
+		(at 303.53 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ceb98932-6960-4fd6-b77c-cf82bac44e41")
+	)
+	(label "+"
+		(at 280.67 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1cd7f97-0c33-40d6-8d3f-50c242c3575a")
+	)
+	(label "+"
+		(at 85.09 256.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d315a623-7aaf-477c-909b-129f4dc0b1f6")
+	)
+	(label "-"
+		(at 151.13 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4991e68-7eae-4be3-ab61-5c4cfb1ddc37")
+	)
+	(label "+"
+		(at 331.47 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d687d60a-3aed-43f6-9688-91bae8d1ee5d")
+	)
+	(label "+"
+		(at 128.27 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8fc434b-fc4b-475a-bbe1-d9c464f81bf2")
+	)
+	(label "GND"
+		(at 187.96 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcd4e831-5e8a-4efa-93f4-399f18f573c7")
+	)
+	(label "-"
+		(at 354.33 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de7ce571-8ae3-429b-ba1a-fbacba79573f")
+	)
+	(label "-"
+		(at 100.33 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de979b61-01ad-49bf-8cba-291fda5376e9")
+	)
+	(label "+"
+		(at 179.07 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0a95e73-3998-4bae-b2ef-89a8312232af")
+	)
+	(label "-"
+		(at 252.73 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e225f047-d6cb-4f2c-b6e5-130f90971d7b")
+	)
+	(label "+"
+		(at 331.47 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4fabe9c-3f48-43f8-bad5-5654e8a9c8b8")
+	)
+	(label "-"
+		(at 151.13 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6f382c2-db9a-4f9e-afdd-885de9e8b576")
+	)
+	(label "GND"
+		(at 187.96 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7f68f4a-55e2-4d3b-b65b-de1b8836f90a")
+	)
+	(label "-"
+		(at 201.93 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edb0e35a-b496-4685-8157-7ded093bfd19")
+	)
+	(label "-"
+		(at 201.93 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f328237f-0259-405f-9625-a979c19e62ae")
+	)
+	(label "+"
+		(at 128.27 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f41f3e9e-fce4-4545-8daa-5481593227bc")
+	)
+	(label "-"
+		(at 92.71 256.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7c240b6-247d-4b76-8167-7acf0b5370f4")
+	)
+	(label "-"
+		(at 100.33 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f859f307-d0a5-4651-a560-f93b13dd5d03")
+	)
+	(label "-"
+		(at 252.73 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe0da2c1-5cae-4aee-87a4-fb6bf9bcb414")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 177.8 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00f452d5-1e9d-489a-ae65-fc00565f67c3")
+		(property "Reference" "H2"
+			(at 176.53 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 177.8 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 177.8 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6024fadb-2949-40d4-a039-36b01771db9c")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 342.9 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0430d937-1f08-4c5d-8672-9e66276ffa78")
+		(property "Reference" "U36"
+			(at 342.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 342.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 342.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cc503bf-ad26-4430-a60c-bdecfc01445f")
+		)
+		(pin "1"
+			(uuid "cadb2f13-4892-42a8-a480-6e1fbd63aa6d")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 241.3 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04e76f66-bca4-40f0-9232-2ad832b40ea5")
+		(property "Reference" "U34"
+			(at 241.3 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.3 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 241.3 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f08f0140-5bd6-4d3c-8a94-a00c2612fa67")
+		)
+		(pin "1"
+			(uuid "19c45aca-f660-4d5e-b667-8f1816aa1197")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 342.9 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c0539b4-9554-495a-a2d1-4db3bbc3137d")
+		(property "Reference" "U18"
+			(at 342.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 342.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 342.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9abad5d7-ff2a-4a51-b77c-2080e7813a45")
+		)
+		(pin "1"
+			(uuid "cc77ec4f-8abe-4456-b1c9-5c81065f21e5")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 241.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d6c9167-d181-42e6-bb73-6e0f8264bfac")
+		(property "Reference" "U22"
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ceaac523-2e7e-431e-b018-fb952173f922")
+		)
+		(pin "1"
+			(uuid "2528d47f-d674-40b4-91d1-be4660d88c09")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 177.8 262.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5e8a86-03ad-4929-8395-4891ad7c64bb")
+		(property "Reference" "H4"
+			(at 176.53 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 177.8 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 177.8 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbf15606-35ca-4885-a9fa-c0a80afb4f0f")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 292.1 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12598375-a6f9-42f1-91e3-00cc218aedfa")
+		(property "Reference" "U17"
+			(at 292.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 292.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3ec7a98-fd6d-450a-b40e-d47fce682458")
+		)
+		(pin "1"
+			(uuid "ee586063-6fbc-4308-b2cf-1e34bffce9f6")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 139.7 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b1515a2-5cd2-45f6-9582-af0988aca24a")
+		(property "Reference" "U26"
+			(at 139.7 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 139.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e951aba6-0452-4f55-945d-27ae4818caa2")
+		)
+		(pin "1"
+			(uuid "ec68f93a-adbf-4051-8f50-eb5db42467ae")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 139.7 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e7653f4-9f77-456e-b6d0-86911ffb37d9")
+		(property "Reference" "U20"
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48c5a924-0350-4b02-a77d-c68547ca1ce4")
+		)
+		(pin "1"
+			(uuid "5e7a05c1-33d2-443f-9b23-2f8adbe8d6aa")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 292.1 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22f2806d-5ad4-457c-928c-da27d2304c79")
+		(property "Reference" "U11"
+			(at 292.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 292.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 292.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86699328-7bb2-43be-bc35-b4d0525c82cd")
+		)
+		(pin "1"
+			(uuid "2daaa7c5-3ce3-49d1-af06-931c62044ad6")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 214.63 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a323e0-04f7-4c8d-abf3-5de1db2ca1c8")
+		(property "Reference" "H7"
+			(at 213.36 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 213.36 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 214.63 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 214.63 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "821add0c-f649-418e-ae0d-a36f77ea7376")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 88.9 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "320b4f4b-d921-4328-b7a3-e72ee423173e")
+		(property "Reference" "U7"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5de72fd9-5b20-46de-9848-c6859c4b76b5")
+		)
+		(pin "1"
+			(uuid "cebfd7fb-7f27-4d84-a94b-cb8849faaa2c")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 292.1 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aa81c4e-61cd-4c4c-9230-8444126af77a")
+		(property "Reference" "U35"
+			(at 292.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 292.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 292.1 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd595b63-d916-46ef-a262-f2ecaae00a00")
+		)
+		(pin "1"
+			(uuid "57f79d0b-68f8-41ff-8ef0-ba96ea35de34")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 139.7 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43c5cbf5-79dc-401c-9b9b-8fc87511fd84")
+		(property "Reference" "U8"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "086ccb13-f737-4ae6-8029-5bee9b5340d5")
+		)
+		(pin "1"
+			(uuid "53608a42-55c2-4737-b81c-186af9b3f3cb")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 139.7 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44040cf2-7b37-423e-b2e9-8bacfcbbd681")
+		(property "Reference" "U14"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43d112ae-6d87-4b76-bf61-27e5f552ab0e")
+		)
+		(pin "1"
+			(uuid "cb2e3835-6013-4824-88b9-2c91c630b7d2")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 342.9 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52c6c3d9-046f-4813-a336-98aacc1c2af8")
+		(property "Reference" "U24"
+			(at 342.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 342.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 342.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23b0cd3b-ed05-4437-b187-94b0543801ba")
+		)
+		(pin "1"
+			(uuid "1c1d3787-4a4c-4a46-a09a-a27534a80cb8")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 190.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56203d1c-8e18-4741-ba1a-99a42c4b39a7")
+		(property "Reference" "U3"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10f4e83b-9da4-40e3-8361-3187711af1e4")
+		)
+		(pin "1"
+			(uuid "5ca28d13-a536-4800-9d79-9c7a97f97c8b")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 342.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57aa07f6-2deb-4c70-9852-26bf52da6e9c")
+		(property "Reference" "U6"
+			(at 342.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 342.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 342.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d93dea48-f139-4d43-a87e-a55f2f00424b")
+		)
+		(pin "1"
+			(uuid "816715bc-d601-42c4-ae12-c9c90252d7f2")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 214.63 228.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "585a981a-51d2-4d92-87d1-517266556250")
+		(property "Reference" "H5"
+			(at 213.36 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 213.36 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 214.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 214.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f765d93c-f2fc-4082-a9d4-b3df5192fe22")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 241.3 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60a7cd7e-c91a-4b19-97fe-7787a3bf7602")
+		(property "Reference" "U28"
+			(at 241.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.3 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b51ca436-545d-4985-9464-85ac18d6c11c")
+		)
+		(pin "1"
+			(uuid "92286366-2d01-441f-9252-355b94b6afe9")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 88.9 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64dcc23e-443e-4df6-a974-fea9a999f0fd")
+		(property "Reference" "U25"
+			(at 88.9 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f808c17-da61-4435-b9ab-9c49ee1eb26e")
+		)
+		(pin "1"
+			(uuid "9a7175b8-a79c-4793-9ceb-c13994a3598b")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 190.5 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65673dc2-6dd9-40f4-9b8a-0e77fa957254")
+		(property "Reference" "U9"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7ac7253-7253-450a-bf50-fa63260d48f8")
+		)
+		(pin "1"
+			(uuid "77ad76be-7a7c-4f51-8c27-c869cc649b4a")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 241.3 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75320ab4-1e69-4fff-9332-c64b5f9f7f0e")
+		(property "Reference" "U16"
+			(at 241.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ead93914-fe8d-4201-8bd2-4c2a0e250a71")
+		)
+		(pin "1"
+			(uuid "21f0a8f6-2a34-4918-befc-502c9f863226")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87c942e7-24fe-4375-9e07-7088c8d7cc53")
+		(property "Reference" "TP4"
+			(at 115.824 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 118.364 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Artix_Library:REC_PAD_3x5"
+			(at 121.92 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a2dc55-1aad-427b-8116-a56dd00328c2")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 92.71 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a2b0e2c-3c31-4705-88d9-c24350997918")
+		(property "Reference" "TP2"
+			(at 91.694 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 94.234 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Artix_Library:REC_PAD_3x5"
+			(at 97.79 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a80365-bcb1-4589-a9c6-e4249386906a")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 139.7 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bdc4437-2723-4e4a-bc86-0bddf2cd0244")
+		(property "Reference" "U32"
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 139.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18124b5d-bda4-4aa3-9d07-1991023ebbf6")
+		)
+		(pin "1"
+			(uuid "2ba68ae6-e453-47b3-a58f-c070d4651f93")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 214.63 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "907c961e-32e7-4165-88f9-f3e6ceca7121")
+		(property "Reference" "H6"
+			(at 213.36 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 213.36 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 214.63 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 214.63 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31e7694d-3b4c-4a53-a884-be348b7c88ea")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 241.3 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91437146-f9ff-4901-aa07-8d6bb72fe1d4")
+		(property "Reference" "U4"
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78ec90de-5dea-4c0b-90cd-a10b586486eb")
+		)
+		(pin "1"
+			(uuid "a0a2d50b-5de4-4f25-a3ad-3e017c8feb3b")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 214.63 262.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9357f96a-a95c-4d98-86dd-5a1d5079dc72")
+		(property "Reference" "H8"
+			(at 213.36 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 213.36 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 214.63 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 214.63 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78572a9b-9aff-4a8b-93d5-8a8afaa5bc35")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 190.5 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96fdbc1f-b832-45e6-b373-ade532a21222")
+		(property "Reference" "U21"
+			(at 190.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa7b7e2c-4d57-4fcf-8b28-6ca5f0003672")
+		)
+		(pin "1"
+			(uuid "8ea84112-6db6-4191-a99d-b7d2c2d973da")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 292.1 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98317f6d-b12d-4883-9ca8-80eda91c67fc")
+		(property "Reference" "U29"
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 292.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 292.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09d2e3e0-5dbf-4162-83ef-7c2f9e27f490")
+		)
+		(pin "1"
+			(uuid "24da62e2-8735-470e-96b5-75e5683d9c16")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 342.9 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d92a2be-0ade-4974-8320-f925a9693e31")
+		(property "Reference" "U30"
+			(at 342.9 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 342.9 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "417a42db-213c-48e7-a57c-21c1567f1e03")
+		)
+		(pin "1"
+			(uuid "6e28a3ad-f4c7-4751-996c-21b79a645575")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4016e30-dee4-4bc1-8370-261bc75f46c8")
+		(property "Reference" "U1"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04057940-d44b-4751-9ca2-45d0aacccb69")
+		)
+		(pin "1"
+			(uuid "ec811cba-e775-4930-99e3-9eb26b35a658")
+		)
+		(instances
+			(project ""
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 177.8 228.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5fb3eae-d6a5-4e9c-bd41-d0a077427fc1")
+		(property "Reference" "H1"
+			(at 176.53 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 177.8 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 177.8 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5311425e-fafd-4162-b9ef-0522341eddee")
+		)
+		(instances
+			(project ""
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 88.9 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a98576e9-6e06-464f-89fd-05f211ab1f1d")
+		(property "Reference" "U13"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dfb68dc-1a0e-4c72-8b13-9ed708aaa7b8")
+		)
+		(pin "1"
+			(uuid "59ee8c56-d470-42ed-91fa-bbb8d3059582")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 342.9 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9fbf449-955e-4e48-ba27-2d8b0f5fdc13")
+		(property "Reference" "U12"
+			(at 342.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 342.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 342.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f29d5aa-0fb3-4ae2-a2ff-fbabcf1f6668")
+		)
+		(pin "1"
+			(uuid "4e77fd2e-0e4c-425c-964e-0d3430a412f3")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 139.7 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad6836d8-2b2b-4f11-97c1-8208cfe3ef2a")
+		(property "Reference" "U2"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "babca579-e355-4b9b-a654-4df5f7206a1e")
+		)
+		(pin "1"
+			(uuid "83c71f6e-1f1d-4e30-8893-194f697db670")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 292.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aef0ce8f-3464-4f1c-8fb7-256e501a411e")
+		(property "Reference" "U5"
+			(at 292.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 292.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 292.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17e1e2ef-0fc8-4389-9f18-03418ebd8be3")
+		)
+		(pin "1"
+			(uuid "0d7b728c-5192-48b5-92f1-4f0cdd1c4441")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 177.8 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b21c77be-de6c-4ce2-ad6b-aa39b9d222b2")
+		(property "Reference" "H3"
+			(at 176.53 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 176.53 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 177.8 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 177.8 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85b88426-a5a8-4f7d-b519-b52a8c4dbc16")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 190.5 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b31f6ce5-064f-47b3-a4b8-5e561e241a91")
+		(property "Reference" "U27"
+			(at 190.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 190.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76994a66-303d-451e-b574-00a66edca68c")
+		)
+		(pin "1"
+			(uuid "f85db0f9-3723-4e3b-9ca0-508298b38791")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 88.9 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c21706a3-2e9a-40ed-b03a-a74a7997d9b9")
+		(property "Reference" "U31"
+			(at 88.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 88.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8198b749-4e37-449f-84c4-6e40143583ec")
+		)
+		(pin "1"
+			(uuid "aeb88393-a06c-4d35-acd3-9d0286ee63d6")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 88.9 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccc541f6-ca36-40c7-934b-d56ee6378185")
+		(property "Reference" "U19"
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3ad361e-d67a-4559-89eb-1b15b4977473")
+		)
+		(pin "1"
+			(uuid "a5ae18e8-6962-466d-a3b5-7295a3b39e6f")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 190.5 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3dcf2b0-89ca-4794-8474-452b0b7e1325")
+		(property "Reference" "U33"
+			(at 190.5 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 190.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d645b483-55ce-4d1a-b795-b392dfc9c962")
+		)
+		(pin "1"
+			(uuid "2c77d471-6a24-45ba-84e7-0db882ac8905")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 241.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d62f8a90-4eea-4968-ba9d-fb377cffd597")
+		(property "Reference" "U10"
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c32b6be6-6069-42dd-81e6-4910306e9aa5")
+		)
+		(pin "1"
+			(uuid "dd40f7f3-e915-4ccd-b730-ed959b3a084f")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 292.1 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e205c30f-1f6d-4eb0-af3f-cdbfd1ed22b3")
+		(property "Reference" "U23"
+			(at 292.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 292.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 292.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d0104d7-7b3f-41bc-a4e7-93debcc3932d")
+		)
+		(pin "1"
+			(uuid "7a44559a-9c42-40b6-a34b-899346b33772")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9f2b436-e99e-4a1b-b55e-d52a5c8ef213")
+		(property "Reference" "TP3"
+			(at 108.204 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.744 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Artix_Library:REC_PAD_3x5_OUTLINE"
+			(at 114.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52867f3d-68aa-42bd-9da6-63599f201cce")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 85.09 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc2b5835-0be7-47bb-8e00-dfd3ace3d60b")
+		(property "Reference" "TP1"
+			(at 84.074 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.614 249.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Artix_Library:REC_PAD_3x5_OUTLINE"
+			(at 90.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 85.09 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f633824-e391-4ae2-8b49-707928398012")
+		)
+		(instances
+			(project ""
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Artix_Library:Ultrasound_sensor")
+		(at 190.5 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fda74b21-2c97-4824-9968-e86877591330")
+		(property "Reference" "U15"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Artix_Library:Ultrasound_16mm"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99f57939-36ed-4d20-b0ba-f2163ef32721")
+		)
+		(pin "1"
+			(uuid "8f98a396-c5c9-4b70-82c0-fc22b562888b")
+		)
+		(instances
+			(project "directional_speaker"
+				(path "/f101f942-f5bb-4cb1-b029-662e51c794cd"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "A3_Landscape.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCtCkUSAIbZUCAQkx78vxG/dPYsh68nmg71thqQ0Xddr6M4/jMCAOB/b0kARgBDAJisS/CF
+				qvHBp/RI5mCdL1R98fEnd72DuyCKpIym4w4+a8omvnuO4OySmZ7vrnGs8UQQSdSNMU4J5eudO443
+				gkjqLJwsonHZIgi901TsW2raei96xmB2YXrMaZHU9ZZUaR+l3c5MhOm3PuNHNOZY8831y8P4UH7n
+				Wu+m6TFG053DHLN731tmd8okc/g6T7gWGChwr32WZa1Xp6323Wnrs3TG+SoJY3zzymdr3DYYv74q
+				xu1V1ne+Vu/aGHmNdMrqYZXPsu/hnM70u4YzmHeNufdIchIVAgxCAHnluxK7LoQjlGGMq9F4FECB
+				SO2L88IIhgrSF2End15Z8kH61TRcjEPCcRmunI/GSZg/67WelE/pffSCJBz1qw1dCiwRbaBhpWIM
+				oRYkKWTYDVCEiBk7ekwPFASREQQLfPBix2R8fw+B6QJn+YAAUCbGW/dp/RUx8DF33izgeJSGJtDN
+				/D9L/pCDl6J/brCdrGDBrAKWgbSkiVXve1YxA6QiOJiTZzwK0YBC2Q3S4rRGAXdgpgPIwU7icgU0
+				UgNKLO9lrh4irwS+VdqfIuOvgeUksY1KYTGfEaOLgLvdaNJP7UCYTjAaPUw0bT+FpMb8Q36xKGXF
+				nT/Zz4HP7HbODt9Fi3r1RTA2yglv0iEnkoHRpdfW0E+t0ETsjyUm4o2hktk0jmksxyhqo7tAc9n6
+				gWO6HFY7hTb9VKwRMUTyhbpd6xGI8RGq|
+			)
+			(checksum "965FE0A50AC6238AACF3E5783C6967E6")
+		)
+	)
+)
